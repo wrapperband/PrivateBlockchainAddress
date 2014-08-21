@@ -1,0 +1,21 @@
+Private Blockchain Addresses (Dark Blockchain)
+
+To describe / develop / prototype / test - encrypting coin addresses in the Blockchain.
+
+The idea is that the "same" coin address is passed / viewed through different "encrypted keys" removing the leakage of private information to an outside observer. The wallet would search its normal open addresses in the blockchain, + it would search for the encrypted address of any private addresses. Your wallet would have the key to view the unencrypted private addresses in your wallet.
+
+Only the sender owner and receiver will see the unencrypted amount and address in their wallet as their private address will be part of the multi-signature encryption of the address..
+
+Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.
+
+
+
+
+
+Possible further enhancements
+
+A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
+
+A facility to make the private encryped address be a "Vanity Address" : which would make the address owner fully public.
+
+A facility to make only the address encrypted not the coin amount 
