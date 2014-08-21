@@ -9,13 +9,14 @@ Only the sender owner and receiver will see the unencrypted amount and address i
 Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.
 
 
-
-
-
-Possible further enhancements
+Possible further enhancements / problems
 
 A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
 
 A facility to make the private encryped address be a "Vanity Address" : which would make the address owner fully public.
 
-A facility to make only the address encrypted not the coin amount 
+A facility to make only the address encrypted not the coin amount.
+
+It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..
+
+The encrypted address may need to conform to a standard format so the coin type can still be identified, or not?.
