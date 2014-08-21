@@ -3,7 +3,7 @@ Private Blockchain Address
 
 PBA - encrypted blockchain address only visible to the owner / sender and receiver.
 
-Proposed anonimity feature : The Dark Blockchain / Private Blockchain Addresses
+Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 
 
 The Dark Blockchain.
