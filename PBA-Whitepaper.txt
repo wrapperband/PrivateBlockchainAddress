@@ -13,7 +13,7 @@ Possible further enhancements / problems
 
 A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
 
-A facility to make the private encryped address be a "Vanity Address" : which would make the address owner fully public.
+A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.
 
 A facility to make only the address encrypted not the coin amount.
 

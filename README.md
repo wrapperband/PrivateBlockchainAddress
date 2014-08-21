@@ -1,7 +1,7 @@
 Private Blockchain Address
 ==========================
 
-PBA - encryped blockchain address only visible to the owner / sender and receiver.
+PBA - encrypted blockchain address only visible to the owner / sender and receiver.
 
 Proposed anonimity feature : The Dark Blockchain / Private Blockchain Addresses
 
@@ -10,7 +10,7 @@ The Dark Blockchain.
 
 It is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.
 
-The advantage for anonymity in useing a Dark Blockchain is that it  would reduces the number of people who have access to information that a transaction has taken place and to what amounts are sent to which addresses.
+The advantage for anonymity in using a Dark Blockchain is that it  would reduces the number of people who have access to information that a transaction has taken place and to what amounts are sent to which addresses.
 
 
 To achieve this,  in the Dark Blockchain, the full blockchain is encrypted. It is also possible to have both encrypted addresses and normal addresses.
