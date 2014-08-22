@@ -4,13 +4,14 @@ Private Blockchain Address
 PBA - encrypted blockchain address only visible to the owner / sender and receiver.
 
 Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
+-------------------------------------------------------------------------------
 
+The Dark Blockchain
+-------------------
 
-The Dark Blockchain.
+In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Because information is leaked through other channels, theis seriously reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if it is possible.
 
-In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Since information is leaked through other channels that could seriously reduced the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender.
-
-Bitcoin, Litecoin and Feathercoin, like most coins have public visible transactions and addresses, i.e a "Light Blockchain". 
+Bitcoin, Litecoin and Feathercoin, like most coins have public visible transactions and addresses, i.e a visible or "Light Blockchain". 
 
 The idea is to investigate wither it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.
 
