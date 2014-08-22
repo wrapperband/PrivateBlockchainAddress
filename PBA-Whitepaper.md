@@ -50,7 +50,7 @@ The Dark Blockchain
 -----------------------------------------------------------
 > In the Dark Blockchain system it is proposed to have an extra level of encryption, so that only the owner or sender to the address has the key to view the address or the amount of coins in that address.
 
-> In the Dark Blockchain, the web blockchain viewer will only show encrypted addresses and the amount of coins in that address will be also be encrypted.
+> In the Dark Blockchain, the web blockchain viewer will only show encrypted addresses and the amount of coins in that address would or could be encrypted, based on the level of privacy required. For instance some coin recipients may insist they can see the amount in an encrypted address is there before continueing with transactions. Other would be happy to verify after it has been successfully received.
 
 > The idea is that the "same" coin address is passed / viewed through different "encrypted keys" removing the leakage of private information to an outside observer. The wallet would search its normal open addresses in the blockchain, + it would search for the encrypted address of any private addresses. Your wallet would have the key to view the unencrypted private addresses in your wallet.
 
