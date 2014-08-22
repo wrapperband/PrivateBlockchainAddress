@@ -48,9 +48,8 @@ It would be possible to allow Dark Blockchain addresses as an upgrade to a runni
 
 It would also be possible to release a viewing password, that let a trusted 3rd party such as your accountant, or Tax office, view the transactions.
 
-
-
-Possible further enhancements / problems
+4.0 Possible further enhancements / problems
+--------------------------------------------
 
 A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
 
