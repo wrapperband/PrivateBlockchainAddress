@@ -4,16 +4,16 @@ Private Blockchain Address
 PBA - encrypted blockchain address only visible to the owner / sender and receiver.
 
 Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
--------------------------------------------------------------------------------
 
 The Dark Blockchain
 -------------------
 
-In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Because information is leaked through other channels, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if it is possible.
+Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Psuedo anonimity is maintained because the public viewer does not know who controls the addresses.
 
-Bitcoin, Litecoin and Feathercoin, like most coins have public visible transactions and addresses, i.e a visible or "Light Blockchain". 
+Because information is leaked through other channels, particularly when funds / coins are transfered, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
 
-The idea is to investigate wither it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.
+
+The idea of developing PBA is to investigate wether it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.
 
 The advantage for anonymity in using a Dark Blockchain is that, it  would reduces the number of people who have access to information that a transaction has taken place and to what amounts are sent to which addresses.
 
