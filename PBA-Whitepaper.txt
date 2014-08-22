@@ -1,4 +1,4 @@
-Private Blockchain Addresseses (Dark Blockchain)
+Private Blockchain Addresses (Dark Blockchain)
 
 PBA - encrypted blockchain address only visible to the owner / sender and receiver.
 
@@ -7,10 +7,10 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 The Dark Blockchain
 -------------------
 
-1.0 Introduction - Anonimity Leakage
+1.0 Introduction - Anonymity Leakage
 ------------------------------------
 
-Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Psuedo anonimity is maintained because the public viewer does not know who controls the addresses.
+Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses.
 
 Because information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
 
@@ -47,6 +47,12 @@ However, where cryptographic currencies have now established a high level of sec
 It would be possible to allow Dark Blockchain addresses as an upgrade to a running blockchain. Coins currently visible, could be sent to an encrypted address, if a user required the extra privacy. Users would be able to choose to send coins to an encrypted Dark Blockchain addresses if they wished, as an option. You would obviously need the correct wallet to view your encrypted addresses and see what is in them.
 
 It would also be possible to release a viewing password, that let a trusted 3rd party such as your accountant, or Tax office, view the transactions.
+
+Side chains are a proposal for Bitcoin 2.0. Side-chains would effectively be new blockchains that are backed by Bitcoins, in much the same way that fiat currencies used to be backed by gold. They could be backed by Feathercoin at that stage of development the Feathercoin client would include side chain facility.
+
+So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin.
+
+By being flexible, Feathercoin is making itself more relevant to it's community / distributed direction, for instance, by returning to GPU mining. Developing extra anonymity features is another area that could be beneficial to that philosophy. It is also an area that attract development assistance and finance from interested partners as the first major coin proposing such an update to increase user security / anonymity.
 
 4.0 Possible further enhancements / problems
 --------------------------------------------
