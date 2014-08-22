@@ -8,7 +8,7 @@ The Dark Blockchain
 -------------------
 1.0 Introduction 
 ----------------
-1.1 Why - Anonymity Leakage
+1.1 Why propose PBAs - Anonymity Leakage
 ------------------------------------
 > Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses.
 
