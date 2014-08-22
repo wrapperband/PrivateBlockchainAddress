@@ -12,7 +12,12 @@ The Dark Blockchain
 
 Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses.
 
-Because information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
+The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
+
+It would be advantageous to include the option of sending coins anonymously, users should be able to choose their own level of security.
+
+One issue is that there is a chance that regulation will allow Alternate currencies provided they do not have a certain anonymity feature, if that happened feathercoin could pull the feature.
+
 
 2.0 Encrypting Addresses - how this could work
 ----------------------------------------------
@@ -35,7 +40,23 @@ The idea is that the "same" coin address is passed / viewed through different "e
 
 Only the sender owner and receiver will see the unencrypted amount and address in their wallet as their private address will be part of the multi-signature encryption of the address..
 
-3.0 Enhancements - addition functionality to make the system usable 
+3.0 Does this PBA privacy measure engender money laundering?
+------------------------------------------------------------
+
+The coins are just private, there is no money laundering involved.
+
+Where as with other privacy / dark methods, coins are swapped between addresses to hide there origin, this does not happen with the "Private Addresses" (on the dark blockchain). The addresses and amounts are just encrypted and can be viewed if permission is given.
+
+For instance, If being accused of money laundering is a concern, then we could use multi-sig technology so the owner of a coin address could release a "viewing address code", which would let a 3rd party view the address transactions.
+
+3.1 Encrypting to a Open Address
+--------------------------------
+
+Being able to encrypt the Blockchain Address could also be the way you make your address public, or fully open. By encrypting to a vanity public viewing address which identifies the controller of that address. This could be used, for instance, by charities or other organisations that require full public auditing of transactions. 
+
+You can always send your coins to a new private address - once you have released a viewing address, to make the coins private or "dark" again.
+
+4.0 Enhancements - addition functionality to make the system usable 
 -------------------------------------------------------------------
 
 Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.
@@ -54,7 +75,7 @@ So, one possibility is that Feathercoin could implement Dark Side Chains, assumi
 
 By being flexible, Feathercoin is making itself more relevant to it's community / distributed direction, for instance, by returning to GPU mining. Developing extra anonymity features is another area that could be beneficial to that philosophy. It is also an area that attract development assistance and finance from interested partners as the first major coin proposing such an update to increase user security / anonymity.
 
-4.0 Possible further enhancements / problems
+5.0 Possible further enhancements / issues
 --------------------------------------------
 
 A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
