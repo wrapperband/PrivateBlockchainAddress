@@ -102,6 +102,8 @@ The Dark Blockchain
 
 > It may be required to issue additional private keys where the address and amount are the same could produce the same encrypted address thus reducing privacy as those transfers could be linked.
 
+> It may be a requirement not to change the database structure, in which case it would be advantageous that the encrypted address in private address is in the form of valid address. This would mean that private address would be indistinguishable from a public address to an public viewer of the blockchain. 
+
 6.0 Possible further enhancements / issues
 --------------------------------------------
 > A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
@@ -112,4 +114,4 @@ The Dark Blockchain
 
 > It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..
 
-> The encrypted address may need to conform to a standard format so the coin type can still be identified, or not?.
+> The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? ie how amount and address are encrypted. For  instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
