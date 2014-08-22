@@ -60,7 +60,9 @@ The Dark Blockchain
 -------------------------------
 > One way to do this is for the software have an extra function to decode encrypted version of the address and contents to extract the address as it scans the blockchain for local users coins. This could be achieved such that the encrypted address is a valid address. Or that in the software there is only one possible encrypted address for each transaction, so it could recognise either as being a valid address.
 
-> If the Coin amount is to be encrypted, this could be done with the address and producing an addition private key. Then in that case the encrypted address is produced useing the address the encrypted amount and the additional private key.
+> If the Coin amount is to be encrypted, this could be done with the address and producing an addition private key. Then in that case the encrypted address is produced using the address the encrypted amount and the additional private key.
+
+> It would be optimal, as far as software and database changes, that no additional knowledge or key or database field be required. This could be achieved by reusing the private key some other known element from the transaction to randomise the encrypted address. 
 
 3.0 Does this PBA privacy measure engender money laundering?
 ------------------------------------------------------------
