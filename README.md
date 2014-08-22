@@ -1,12 +1,10 @@
 README.md
-
 Private Blockchain Addresses
 ============================
+Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses. 
 PBA - encrypted blockchain address which are only visible to the owner / sender and receiver.
 
 To describe / develop / prototype / test - encrypting coin addresses in the Blockchain.
-
-Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 
 Developing Private Blockchain addresses
 ---------------------------------------
