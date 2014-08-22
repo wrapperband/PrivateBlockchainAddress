@@ -81,37 +81,64 @@ The Dark Blockchain
 
 5.0 Enhancements - addition functionality to make the system usable 
 -------------------------------------------------------------------
-
+5.1 Sending between public and private addresses
+------------------------------------------------
 > Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.
 
-> The disadvantage of the Dark Blockchain is that only the sender and receiver are aware a transaction took place. Users are trusting that the software performed the required action, since no third party can look at the web blockchain viewer and confirm the transaction.
+5.2 Do we trust the software?
+-----------------------------
+> A possible disadvantage of the Dark Blockchain is that only the sender and receiver are aware a transaction took place. Users are trusting that the software performed the required action, since no third party can look at the web blockchain viewer and confirm the transaction.
 
 > However, where cryptographic currencies have now established a high level of security and trust in open source code methods, it would now be possible to implement Dark Blockchain features. In that, you don't have to inspect every block in the open blockchain to receive an amount of coins, the software is the arbiter of how many coins that address, holds wither it is visible publicly or not.
 
-> It would be possible to allow Dark Blockchain addresses as an upgrade to a running blockchain. Coins currently visible, could be sent to an encrypted address, if a user required the extra privacy. Users would be able to choose to send coins to an encrypted Dark Blockchain addresses if they wished, as an option. You would obviously need the correct wallet to view your encrypted addresses and see what is in them.
-
 > It would also be possible to release a viewing password, that let a trusted 3rd party such as your accountant, or Tax office, view the transactions.
 
+5.3 Could PBA be implemented on any blockchain?
+-----------------------------------------------
+> It would be possible to allow Dark Blockchain addresses as an upgrade to a running blockchain. Coins currently visible, could be sent to an encrypted address, if a user required the extra privacy. Users would be able to choose to send coins to an encrypted Dark Blockchain addresses if they wished, as an option. You would obviously need the correct wallet to view your encrypted addresses and see what is in them.
+
+5.4 What about makeing a Dark sidechain?
+----------------------------------------
 > Side chains are a proposal for Bitcoin 2.0. Side-chains would effectively be new blockchains that are backed by Bitcoins, in much the same way that fiat currencies used to be backed by gold. They could be backed by Feathercoin at that stage of development the Feathercoin client would include side chain facility.
 
 > So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin.
 
+5.5 Why should Feathercoin consider adopting PBA?
+-------------------------------------------------
 > By being flexible, Feathercoin is making itself more relevant to it's community / distributed direction, for instance, by returning to GPU mining. Developing extra anonymity features is another area that could be beneficial to that philosophy. It is also an area that attract development assistance and finance from interested partners as the first major coin proposing such an update to increase user security / anonymity.
 
+5.6 How could the amounts of coins be encrypted?
+------------------------------------------------
 > It may not be possible to encrypt the coin amounts due to conflicts with other accounting requirements, or to show some adaptability to the Dark blockchain.
 
 > It may be required to issue additional private keys where the address and amount are the same could produce the same encrypted address thus reducing privacy as those transfers could be linked.
 
+5.7 Could PBA be implemented without changeing the block chain database structure?
+----------------------------------------------------------------------------------
 > It may be a requirement not to change the database structure, in which case it would be advantageous that the encrypted address in private address is in the form of valid address. This would mean that private address would be indistinguishable from a public address to an public viewer of the blockchain. 
 
 6.0 Possible further enhancements / issues
 --------------------------------------------
+6.1 Producing additional public viewing keys
+---------------------------------------------
 > A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
 
+6.2 Using PBA to enableing Public Addresses
+-------------------------------------------
 > A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.
 
+6.3 Variable privacy settings
+-----------------------------
 > A facility to make only the address encrypted not the coin amount.
 
+6.4 Using PBA to enable private mining payout options
+-----------------------------------------------------
 > It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..
 
-> The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? ie how amount and address are encrypted. For  instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
+6.5 Identifiable and non identifiable encrypted addresses
+---------------------------------------------------------
+> The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? For instance encrypted addresses could start with an identifier string. Which might be a requirement for reducing the work involved scanning the blockchain for personal address. Even so, it should be possible that wallet will accept either the unencrypted or encrypted address, for speed. It would slow down the system if it had to unencrypted every address, to see if you owned it. 
+
+> Also to consider how amount and address are encrypted. 
+
+> For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
