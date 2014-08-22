@@ -7,16 +7,25 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 The Dark Blockchain
 -------------------
 
-1.0 Introduction - Anonymity Leakage
-------------------------------------
+1.0 Introduction 
 
+1.1 Why - Anonymity Leakage
+------------------------------------
 Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses.
 
 The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
 
+1.1 What - Addition encryption.
+-------------------------------
 It would be advantageous to include the option of sending coins anonymously, users should be able to choose their own level of security.
 
 One issue is that there is a chance that regulation will allow Alternate currencies provided they do not have a certain anonymity feature, if that happened feathercoin could pull the feature.
+
+1.3 How - Development
+---------------------
+The proposal is to create a version of Feathercoin coin as a testbed for implementing private Blockchain addreses. Once tested, and debugged, offer to incorporate the features of the development into feathercoin as an option. 
+
+It would be available as a module which can be introduced to other coins networks, or used to create a new coin. The open development is to recognise the level of work and co-operation required, particularly to raise bounties or gain the interest of other coins developers.
 
 
 2.0 Encrypting Addresses - how this could work
@@ -51,14 +60,14 @@ For instance, If being accused of money laundering is a concern, then we could u
 
 3.1 Encrypting to a Open Address
 --------------------------------
+Being able to encrypt the Blockchain Address could also be the way you make your address public, or fully open. 
 
-Being able to encrypt the Blockchain Address could also be the way you make your address public, or fully open. By encrypting to a vanity public viewing address which identifies the controller of that address. This could be used, for instance, by charities or other organisations that require full public auditing of transactions. 
+By encrypting to a vanity public viewing address which identifies the controller of that address. This could be used, for instance, by charities or other organisations that require full public auditing of transactions. The vanity address could include their charity registration number, for instance.
 
 You can always send your coins to a new private address - once you have released a viewing address, to make the coins private or "dark" again.
 
 4.0 Enhancements - addition functionality to make the system usable 
 -------------------------------------------------------------------
-
 Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.
 
 The disadvantage of the Dark Blockchain is that only the sender and receiver are aware a transaction took place. Users are trusting that the software performed the required action, since no third party can look at the web blockchain viewer and confirm the transaction.
@@ -77,7 +86,6 @@ By being flexible, Feathercoin is making itself more relevant to it's community 
 
 5.0 Possible further enhancements / issues
 --------------------------------------------
-
 A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
 
 A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.
