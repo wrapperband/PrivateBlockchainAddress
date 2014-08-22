@@ -14,7 +14,7 @@ The Dark Blockchain
 
 > The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
 
-1.1 What - Additional encryption.
+1.2 What - Additional encryption.
 --------------------------------
 > It would be advantageous to include the option of sending coins anonymously, users should be able to choose their own level of security.
 
