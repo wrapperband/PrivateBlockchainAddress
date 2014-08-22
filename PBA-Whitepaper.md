@@ -50,7 +50,7 @@ The Dark Blockchain
 -----------------------------------------------------------
 > In the Dark Blockchain system it is proposed to have an extra level of encryption, so that only the owner or sender to the address has the key to view the address or the amount of coins in that address.
 
-> In the Dark Blockchain, the web blockchain viewer will only show encrypted addresses and the amount of coins in that address would or could be encrypted, based on the level of privacy required. For instance some coin recipients may insist they can see the amount in an encrypted address is there before continueing with transactions. Other would be happy to verify after it has been successfully received.
+> In the Dark Blockchain, the web blockchain viewer will only show encrypted addresses and the amount of coins in that address would or could be encrypted, based on the level of privacy required. For instance some coin recipients may insist they can see the amount in an encrypted address is there before continuing with transactions. Other would be happy to verify after it has been successfully received.
 
 > The idea is that the "same" coin address is passed / viewed through different "encrypted keys" removing the leakage of private information to an outside observer. The wallet would search its normal open addresses in the blockchain, + it would search for the encrypted address of any private addresses. Your wallet would have the key to view the unencrypted private addresses in your wallet.
 
@@ -58,7 +58,9 @@ The Dark Blockchain
 
 2.5 How could this be programmed?
 -------------------------------
-> One way to do this is for the software have an extra function to decode encrypted version of the address and contents to extract the address as it scans the blockchain for local users coins. The encryption should be done such that the encrypted address is a valid address. 
+> One way to do this is for the software have an extra function to decode encrypted version of the address and contents to extract the address as it scans the blockchain for local users coins. This could be achieved such that the encrypted address is a valid address. Or that in the software there is only one possible encrypted address for each transaction, so it could recognise either as being a valid address.
+
+> If the Coin amount is to be encrypted, this could be done with the address and producing an addition private key. Then in that case the encrypted address is produced useing the address the encrypted amount and the additional private key.
 
 3.0 Does this PBA privacy measure engender money laundering?
 ------------------------------------------------------------
@@ -96,6 +98,9 @@ The Dark Blockchain
 
 > By being flexible, Feathercoin is making itself more relevant to it's community / distributed direction, for instance, by returning to GPU mining. Developing extra anonymity features is another area that could be beneficial to that philosophy. It is also an area that attract development assistance and finance from interested partners as the first major coin proposing such an update to increase user security / anonymity.
 
+> It may not be possible to encrypt the coin amounts due to conflicts with other accounting requirements, or to show some adaptability to the Dark blockchain.
+
+> It may be required to issue additional private keys where the address and amount are the same could produce the same encrypted address thus reducing privacy as those transfers could be linked.
 
 6.0 Possible further enhancements / issues
 --------------------------------------------
