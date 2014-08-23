@@ -21,19 +21,21 @@ Key: D.1 = disadvantage 1. A.3 = advantage 3
 
 3.0 The encrypted address need to change for each transaction.
 --------------------------------------------------------------
+Investigate possible method of randomising the encrypted address.
 
-Some method of randomising the encrypted address.
+3.1 Use the transaction value, or part of it to create the private address
+--------------------------------------------------------------------------
+> D.1 is a number (limited character range)
+> D.2 could be repeated for similar sized transactions happen.
 
-> Possible "randomiseing" methods
-> 3.1 Use the transaction value, or part of it to create the private address.
->> D.1 is a number (limited character range)
->> D.2 could be repeated for similar sized transactions happen.
+3.2 Use a new password or pin or private address
+------------------------------------------------
+> D.1 database changes
 
-> 3.2 Use a new password or pin or private address
->> D.1 database changes
+3.3 Use the previous senders address or part of it to geneate the private address
+---------------------------------------------------------------------------------
+> D.1   private
 
-> 3.3 Use the previous senders address or part of it to geneate the private address.
->> D.1   private
-
-> 3.4 Store an extra private key for each private transaction.
->> D.1 database changes to wallet
+3.4 Store an extra private key for each private transaction
+-----------------------------------------------------------
+> D.1 database changes to wallet
