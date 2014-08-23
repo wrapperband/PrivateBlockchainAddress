@@ -25,20 +25,21 @@ Document and Software control : Github
 Task management : Trello (not implemented)
 
 Example work-flow :
-> Using Github : On GNU/Linux :
+ Using Github : On GNU/Linux :
 > Join Github, install Git
 > Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
-> In a Terminal:
+ In a Terminal:
 > git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
 > cd PrivateBlockchainAddress
-> Register local project with Github :
+ Register local project with Github :
 > git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
 > git remote -v
-> Edit or Update a file with your changes e.g. README.md
+ Edit or Update a file with your changes e.g. README.md
 > git status
 > git add "README.md"
-> Add a commit message :
+ Add a commit message :
 > git commit -m "Improved work-flow description for Git in README"
+ Push your changes to Github
 > git push
 > Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.
 
