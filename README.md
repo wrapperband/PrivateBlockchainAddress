@@ -4,25 +4,26 @@ Private Blockchain Addresses
 Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses.  
 PBA - encrypted blockchain address which are only visible to the owner / sender and receiver.  
   
-Developing Private Blockchain addresses  
----------------------------------------  
+Developing Private Blockchain addresses - ideology  
+--------------------------------------------------  
 > The idea of developing PBA is to investigate whether it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.  
 >  
 > The white paper or functional requirement is currently being developed.  
 >  
 > This is an open project to any contributor.  
--------------------------------------------  
-
-How to get involved in the project - work-flow. (DRAFT)  
--------------------------------------------------------  
+  
+How to get involved in the project  
+----------------------------------  
 Technology usage :  
 >  Documentation format : Markdown  
 >  Document and Software control : Github   
 >  Task management : Trello (not implemented)  
 
-Resources request: 
-> Volunteer & Feathercoin or other Coin Bounties (not implemented)
-
+Resources request:  
+> Volunteer & Feathercoin or other Coin Bounties (not implemented)  
+> Feathercoin [Dev] Thread :   
+> https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
+  
 Example work-flow :  
 -------------------  
 Using Github :  
