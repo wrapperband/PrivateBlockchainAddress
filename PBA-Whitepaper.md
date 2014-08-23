@@ -16,7 +16,7 @@ The Dark Blockchain
 
 > Encrypted addresses seems a simple solution, however it doen't seemed to have been proposed before. It is probable that development of multi signature technolgy was required to make it feasible.
 
-> Most other methods of data privacy use a similar "envelope" to pass the trasaction theory, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5, 7,8, Zerocoin, Darkcoin, Anoncoin.)
+> Most other methods of data privacy use a similar "envelope" to pass the trasaction theory, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5,7,8, Zerocoin, Darkcoin, Anoncoin.)
 
 1.2 What - Additional encryption.
 --------------------------------
