@@ -17,17 +17,17 @@ This is an open project to any contributor.
 
 How to get involved in the project - work-flow. (DRAFT)
 -------------------------------------------------------
+Technology :  
+>  Documentation format : Markdown  
+>  Document and Software control : Github   
+>  Task management : Trello (not implemented)  
 
-Documentation format : Markdown
+Finance : 
 
-Document and Software control : Github 
-
-Task management : Trello (not implemented)
-
-Finance : Volunteer & Feathercoin or other Coin Bounties (not implemented)
+> Volunteer & Feathercoin or other Coin Bounties (not implemented)
 
 Example work-flow :  
-  
+-------------------  
 Using Github : On GNU/Linux :  
  Join Github  
  install Git  
@@ -42,15 +42,13 @@ Register local project with Github :
  git remote -v  
   
 Edit or Update a file with your changes e.g. README.md  
-  
  git status  
  git add "README.md"  
-
+  
 Add a commit message :  
-  
  git commit -m "Improved work-flow description for Git in README"  
-
-Push your changes to Github :  
   
+Push your changes to Github :  
  git push  
  Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.  
+  
