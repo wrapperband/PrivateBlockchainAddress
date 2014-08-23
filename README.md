@@ -29,7 +29,7 @@ Example work-flow :
 > Join Github, install Git
 > Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
 > In a Terminal:
-> >git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
+> git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
 > cd PrivateBlockchainAddress
 > Register local project with Github :
 > git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
@@ -38,7 +38,7 @@ Example work-flow :
 > git status
 > git add "README.md"
 > Add a commit message :
-> git commit -m "Improved workflow description for Git in README"
+> git commit -m "Improved work-flow description for Git in README"
 > git push
 > Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.
 
