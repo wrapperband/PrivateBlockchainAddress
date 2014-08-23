@@ -18,34 +18,30 @@ This is an open project to any contributor.
 How to get involved in the project / work-flow. (DRAFT)
 -------------------------------------------------------
 
-On GNU/Linux :
+Documentation format : Markdown
 
-Join Github, install Git
+Document and Software control : Github 
 
-Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
+Task management : Trello (not implemented)
 
-In a Terminal:
---------------
-git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
+Example work-flow :
+> Using Github : On GNU/Linux :
+> Join Github, install Git
+>> Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
+> In a Terminal:
+> >git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
+> cd PrivateBlockchainAddress
+>> Register local project with Github :
+>> git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
+>> git remote -v
+> Edit or Update a file with your changes e.g. README.md
+>> git status
+>> git add "README.md"
+> Add a commit message :
+>> git commit -m "Improved workflow description for Git in README"
+>> git push
+> Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.
 
-cd PrivateBlockchainAddress
 
-Register local project with Github :
 
-git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
 
-git remote -v
-
-Edit or Update a file with your changes e.g. README.md
-
-git status
-
-git add "README.md"
-
-Add a commit message :
-
-git commit -m "Improved workflow description for Git in README"
-
-git push
-
-Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.
