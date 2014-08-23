@@ -10,9 +10,13 @@ The Dark Blockchain
 ----------------
 1.1 Why propose PBAs - Anonymity Leakage
 ------------------------------------
-> Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses.
+> Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses. (Ref 1,3)
 
 > The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.
+
+> Encrypted addresses seems a simple solution, however it doen't seemed to have been proposed before. It is probable that development of multi signature technolgy was required to make it feasible.
+
+> Most other methods of data privacy use a similar "envelope" to pass the trasaction theory, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5, 7,8, Zerocoin, Darkcoin, Anoncoin.)
 
 1.2 What - Additional encryption.
 --------------------------------
@@ -103,7 +107,7 @@ The Dark Blockchain
 ----------------------------------------
 > Side chains are a proposal for Bitcoin 2.0. Side-chains would effectively be new blockchains that are backed by Bitcoins, in much the same way that fiat currencies used to be backed by gold. They could be backed by Feathercoin at that stage of development the Feathercoin client would include side chain facility.
 
-> So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin.
+> So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin. (Ref 4.)
 
 5.5 Why should Feathercoin consider adopting PBA?
 -------------------------------------------------
@@ -144,3 +148,40 @@ The Dark Blockchain
 > Also to consider how amount and address are encrypted. 
 
 > For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
+
+
+References:
+1. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names
+
+http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf
+
+2. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203
+
+https://www.youtube.com/watch?v=-xSMEuhEWGM
+https://www.youtube.com/watch?v=ym8oDhwhHGg
+
+3. tor-us-attack-identity-privacy
+
+http://www.techweekeurope.co.uk/news/tor-us-attack-identity-privacy-150044
+
+4. Sidechains
+
+http://techcrunch.com/2014/04/19/bitcoin-2-0-unleash-the-sidechains/
+http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/
+
+5. Stealth Addresses
+
+http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address
+http://sourceforge.net/p/bitcoin/mailman/message/31813471/
+
+6. Regulation
+
+http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/
+
+7. Cryptonote whitepaper 
+
+https://cryptonote.org/whitepaper.pdf
+
+8. Monero main site
+
+http://www.monero.cc/
