@@ -28,30 +28,35 @@ Finance : Volunteer & Feathercoin or other Coin Bounties (not implemented)
 
 Example work-flow :
 
- Using Github : On GNU/Linux :
-  Join Github, install Git
-  Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
+Using Github : On GNU/Linux :
 
- In a Terminal:
+ Join Github, install Git
+ Go to https://github.com/wrapperband/PrivateBlockchainAddress and request being added as a contributor
+
+In a Terminal:
  
-  git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
-  cd PrivateBlockchainAddress
-
- Register local project with Github :
+ git clone https://github.com/wrapperband/PrivateBlockchainAddress.git
  
-  git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
-  git remote -v
+ cd PrivateBlockchainAddress
 
- Edit or Update a file with your changes e.g. README.md
+Register local project with Github :
  
-  git status
-  git add "README.md"
+ git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git
 
- Add a commit message :
+ git remote -v
+
+Edit or Update a file with your changes e.g. README.md
+ 
+ git status
+
+ git add "README.md"
+
+Add a commit message :
  
   git commit -m "Improved work-flow description for Git in README"
 
- Push your changes to Github
+Push your changes to Github
  
   git push
+ 
   Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.
