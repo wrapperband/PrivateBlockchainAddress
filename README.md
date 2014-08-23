@@ -24,6 +24,8 @@ Document and Software control : Github
 
 Task management : Trello (not implemented)
 
+Finance : Volunteer & Feathercoin or other Coin Bounties (not implemented)
+
 Example work-flow :
  Using Github : On GNU/Linux :
 > Join Github, install Git
