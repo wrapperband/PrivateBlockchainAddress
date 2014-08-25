@@ -38,10 +38,6 @@ In a Terminal:
 > git clone https://github.com/wrapperband/PrivateBlockchainAddress.git  
 > cd PrivateBlockchainAddress  
   
-Register local project with Github :  
-> git remote add origin https://github.com/wrapperband/PrivateBlockchainAddress.git  
-> git remote -v  
-  
 Edit or Update a file with your changes e.g. README.md  
 > git status  
 > git add "README.md"  
