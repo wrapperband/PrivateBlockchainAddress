@@ -49,7 +49,8 @@ Push your changes to Github :
 > git push  
 > Go to https://github.com/wrapperband/PrivateBlockchainAddress and check your work has uploaded.  
 
-Ref 1 Markdown  
+Referances  
+1. Markdown  
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
   
