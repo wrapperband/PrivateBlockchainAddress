@@ -9,21 +9,21 @@ The Dark Blockchain
 1.0 Introduction 
 ----------------
 1.1 Why propose PBAs - Anonymity Leakage  
-> Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses. i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses. (Ref 1,3)  
+> Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses; i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses. (Ref 2,4)  
   
 > The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.  
   
-> Encrypted addresses seems a simple solution, however it doesn’t seemed to have been proposed before. It is probable that development of multi signature technology was required to make it feasible.
+> Encrypted addresses seems a simple solution, however it doesn’t seemed to have been proposed before. It is probable that development of multi signature technology was required to make it feasible. (Ref 1)  
   
-> Most other methods of data privacy use a similar "envelope" to pass the trasaction theory, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5,7,8, Zerocoin, Darkcoin, Anoncoin.)
+> Most other methods of data privacy use a similar "envelope" method to pass the transaction, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5,7,8, Zerocoin, Darkcoin, Anoncoin.)
   
 1.2 What - Additional encryption  
 > It would be advantageous to include the option of sending coins anonymously, users should be able to choose their own level of security.  
   
-> One issue is that there is a chance that regulation will allow Alternate currencies provided they do not have a certain anonymity feature, if that happened feathercoin could pull the feature.  
+> One issue is that there is a chance that regulation will allow Alternate currencies provided they do not have a certain anonymity feature, if that happened Feathercoin could pull the feature.  
   
 1.3 How - Development  
-> The proposal is to create a version of Feathercoin coin as a testbed for implementing private Blockchain addreses. Once tested, and debugged, offer to incorporate the features of the development into feathercoin as an option.  
+> The proposal is to create a version of Feathercoin coin as a test-bed for implementing private Blockchain addresses. Once tested, and debugged, offer to incorporate the features of the development into Feathercoin as an option.  
   
 > It would be available as a module which can be introduced to other coins networks, or used to create a new coin. The open development is to recognise the level of work and co-operation required, particularly to raise bounties or gain the interest of other coins developers.  
   
@@ -60,51 +60,50 @@ The Dark Blockchain
 
 > It would be optimal, as far as software and database changes, that no additional knowledge or key or database field be required. This could be achieved by reusing the private key some other known element from the transaction to randomise the encrypted address. 
 
-3.0 Does this PBA privacy measure engender money laundering?  
-------------------------------------------------------------  
+3.0 Other related issues
+------------------------
+3.1 Does this PBA privacy measure engender money laundering?  
 > The coins are just private, there is no money laundering involved.  
   
 > Where as with other privacy / dark methods, coins are swapped between addresses to hide there origin, this does not happen with the "Private Addresses" (on the dark blockchain). The addresses and amounts are just encrypted and can be viewed if permission is given.  
 
 > For instance, If being accused of money laundering is a concern, then we could use multi-sig technology so the owner of a coin address could release a "viewing address code", which would let a 3rd party view the address transactions.  
   
-4.0 Encrypting to a Open Address  
---------------------------------  
-> Being able to encrypt the Blockchain Address could also be the way you make your address public, or fully open.   
+3.2 Useing encryption to create an "Open Address"  
+> Being able to encrypt the Blockchain Address could also be the way you make your address public, vanity or fully open address   
   
-> By encrypting to a vanity public viewing address which identifies the controller of that address. This could be used, for instance, by charities or other organisations that require full public auditing of transactions. The vanity address could include their charity registration number, for instance.  
+> By adding a facility that can encrypt an normal address to a vanity public viewing address which identifies the controller of that address. This could be used, for instance, by charities or other organisations that require full public auditing of transactions. The vanity address could include their charity registration number, for instance.  
   
 > You can always send your coins to a new private address - once you have released a viewing address, to make the coins private or "dark" again.  
   
-5.0 Enhancements - addition functionality to make the system usable   
--------------------------------------------------------------------  
-5.1 Sending between public and private addresses  
+3.3 Enhancements - addition functionality to make the system usable   
+3.3.1 Sending between public and private addresses  
 > Initially it was envisaged that the address and amount of a designated private address would be encrypted in the blockchain. By using multi-signature and Public / Private key technology, you would pass that amount in the private address, to a public or private address based on the receivers preference. If sending to a public address is chosen the last address will be made public.  
   
-5.2 Do we trust the software?   
+3.4 Do we trust the software?   
 > A possible disadvantage of the Dark Blockchain is that only the sender and receiver are aware a transaction took place. Users are trusting that the software performed the required action, since no third party can look at the web blockchain viewer and confirm the transaction.  
   
 > However, where cryptographic currencies have now established a high level of security and trust in open source code methods, it would now be possible to implement Dark Blockchain features. In that, you don't have to inspect every block in the open blockchain to receive an amount of coins, the software is the arbiter of how many coins that address, holds wither it is visible publicly or not.  
   
 > It would also be possible to release a viewing password, that let a trusted 3rd party such as your accountant, or Tax office, view the transactions.  
   
-5.3 Could PBA be implemented on any blockchain?  
+3.5 Could PBA be implemented on any blockchain?  
 > It would be possible to allow Dark Blockchain addresses as an upgrade to a running blockchain. Coins currently visible, could be sent to an encrypted address, if a user required the extra privacy. Users would be able to choose to send coins to an encrypted Dark Blockchain addresses if they wished, as an option. You would obviously need the correct wallet to view your encrypted addresses and see what is in them.  
   
-5.4 What about makeing a Dark sidechain?  
+3.6 What about makeing a Dark sidechain?  
 > Side chains are a proposal for Bitcoin 2.0. Side-chains would effectively be new blockchains that are backed by Bitcoins, in much the same way that fiat currencies used to be backed by gold. They could be backed by Feathercoin at that stage of development the Feathercoin client would include side chain facility.
 
 > So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin. (Ref 4.)
 
-5.5 Why should Feathercoin consider adopting PBA?
+3.7 Why should Feathercoin consider adopting PBA?
 > By being flexible, Feathercoin is making itself more relevant to it's community / distributed direction, for instance, by returning to GPU mining. Developing extra anonymity features is another area that could be beneficial to that philosophy. It is also an area that attract development assistance and finance from interested partners as the first major coin proposing such an update to increase user security / anonymity.
 
-5.6 How could the amounts of coins be encrypted?
+3.8 How could the amounts of coins be encrypted?
 > It may not be possible to encrypt the coin amounts due to conflicts with other accounting requirements, or to show some adaptability to the Dark blockchain.
 
 > It may be required to issue additional private keys where the address and amount are the same could produce the same encrypted address thus reducing privacy as those transfers could be linked.
 
-5.7 Could PBA be implemented without changeing the block chain database structure?
+3.9 Could PBA be implemented without changing the block chain database structure?
 > It may be a requirement not to change the database structure, in which case it would be advantageous that the encrypted address in private address is in the form of valid address. This would mean that private address would be indistinguishable from a public address to an public viewer of the blockchain. 
 
 6.0 Possible further enhancements / issues  
@@ -112,7 +111,7 @@ The Dark Blockchain
 6.1 Producing additional public viewing keys  
 > A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.  
   
-6.2 Using PBA to enableing Public Addresses  
+6.2 Using PBA to enabling Public Addresses  
 > A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.  
   
 6.3 Variable privacy settings  
@@ -121,41 +120,45 @@ The Dark Blockchain
 6.4 Using PBA to enable private mining payout options  
 > It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..  
   
-6.5 Identifiable and non identifiable encrypted addresses
+6.5 Identifiable and non identifiable encrypted addresses   
 > The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? For instance encrypted addresses could start with an identifier string. Which might be a requirement for reducing the work involved scanning the blockchain for personal address. Even so, it should be possible that wallet will accept either the unencrypted or encrypted address, for speed. It would slow down the system if it had to unencrypted every address, to see if you owned it. 
   
 > Also to consider how or wither the value amount and address are encrypted. Wether other parameters are or could be used as part of the public private key pair, such as the myrtle.
   
-> For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
+> For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.  
   
   
 References:  
-1. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names  
+1. Feathercoin thread :
+https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
+https://forum.feathercoin.com/index.php?/topic/7523-proposed-anonimity-feature-the-dark-blockchain/  
+  
+2. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names  
 http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf  
   
-2. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203  
+3. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203  
 https://www.youtube.com/watch?v=-xSMEuhEWGM  
 https://www.youtube.com/watch?v=ym8oDhwhHGg  
   
-3. tor-us-attack-identity-privacy  
+4. tor-us-attack-identity-privacy  
 http://www.techweekeurope.co.uk/news/tor-us-attack-identity-privacy-150044  
   
-4. Sidechains  
+5. Sidechains  
 http://techcrunch.com/2014/04/19/bitcoin-2-0-unleash-the-sidechains/  
 http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/  
   
-5. Stealth Addresses  
+6. Stealth Addresses  
 http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address  
 http://sourceforge.net/p/bitcoin/mailman/message/31813471/  
   
-6. Regulation  
+7. Regulation  
 http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/  
   
-7. Cryptonote whitepaper  
+8. Cryptonote whitepaper  
 https://cryptonote.org/whitepaper.pdf  
   
-8. Monero site  
+9. Monero site  
 http://www.monero.cc/  
   
-9. Anoncoin site  
+10. Anoncoin site  
 https://anoncoin.net/  
