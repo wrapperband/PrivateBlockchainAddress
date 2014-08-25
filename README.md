@@ -21,7 +21,9 @@ How to get involved in the project
 >  * Task management : Trello (not implemented)  
 
 Resources request:  
-> Volunteer & Feathercoin or other Coin Bounties (not implemented)  
+> Volunteer contributors  
+> Feathercoin Bounty (not implemented)  
+> Other / Coin Bounties (not implemented)  
 > Feathercoin [Dev] Thread :   
 > https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
   
