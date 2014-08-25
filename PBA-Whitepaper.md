@@ -123,65 +123,55 @@ The Dark Blockchain
 ----------------------------------------------------------------------------------
 > It may be a requirement not to change the database structure, in which case it would be advantageous that the encrypted address in private address is in the form of valid address. This would mean that private address would be indistinguishable from a public address to an public viewer of the blockchain. 
 
-6.0 Possible further enhancements / issues
---------------------------------------------
-6.1 Producing additional public viewing keys
----------------------------------------------
-> A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.
-
-6.2 Using PBA to enableing Public Addresses
--------------------------------------------
-> A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.
-
-6.3 Variable privacy settings
------------------------------
-> A facility to make only the address encrypted not the coin amount.
-
-6.4 Using PBA to enable private mining payout options
------------------------------------------------------
-> It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..
-
+6.0 Possible further enhancements / issues  
+------------------------------------------  
+6.1 Producing additional public viewing keys  
+> A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.  
+  
+6.2 Using PBA to enableing Public Addresses  
+> A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.  
+  
+6.3 Variable privacy settings  
+> A facility to make only the address encrypted not the coin amount.  
+  
+6.4 Using PBA to enable private mining payout options  
+> It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..  
+  
 6.5 Identifiable and non identifiable encrypted addresses
----------------------------------------------------------
 > The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? For instance encrypted addresses could start with an identifier string. Which might be a requirement for reducing the work involved scanning the blockchain for personal address. Even so, it should be possible that wallet will accept either the unencrypted or encrypted address, for speed. It would slow down the system if it had to unencrypted every address, to see if you owned it. 
-
-> Also to consider how amount and address are encrypted. 
-
+  
+> Also to consider how or wither the value amount and address are encrypted. Wether other parameters are or could be used as part of the public private key pair, such as the myrtle.
+  
 > For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.
-
-
-References:
-1. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names
-
-http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf
-
-2. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203
-
-https://www.youtube.com/watch?v=-xSMEuhEWGM
-https://www.youtube.com/watch?v=ym8oDhwhHGg
-
-3. tor-us-attack-identity-privacy
-
-http://www.techweekeurope.co.uk/news/tor-us-attack-identity-privacy-150044
-
-4. Sidechains
-
-http://techcrunch.com/2014/04/19/bitcoin-2-0-unleash-the-sidechains/
-http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/
-
-5. Stealth Addresses
-
-http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address
-http://sourceforge.net/p/bitcoin/mailman/message/31813471/
-
-6. Regulation
-
-http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/
-
-7. Cryptonote whitepaper 
-
-https://cryptonote.org/whitepaper.pdf
-
-8. Monero main site
-
-http://www.monero.cc/
+  
+  
+References:  
+1. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names  
+http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf  
+  
+2. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203  
+https://www.youtube.com/watch?v=-xSMEuhEWGM  
+https://www.youtube.com/watch?v=ym8oDhwhHGg  
+  
+3. tor-us-attack-identity-privacy  
+http://www.techweekeurope.co.uk/news/tor-us-attack-identity-privacy-150044  
+  
+4. Sidechains  
+http://techcrunch.com/2014/04/19/bitcoin-2-0-unleash-the-sidechains/  
+http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/  
+  
+5. Stealth Addresses  
+http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address  
+http://sourceforge.net/p/bitcoin/mailman/message/31813471/  
+  
+6. Regulation  
+http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/  
+  
+7. Cryptonote whitepaper  
+https://cryptonote.org/whitepaper.pdf  
+  
+8. Monero site  
+http://www.monero.cc/  
+  
+9. Anoncoin site  
+https://anoncoin.net/  
