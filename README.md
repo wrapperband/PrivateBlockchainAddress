@@ -6,7 +6,7 @@ PBA - encrypted blockchain address which are only visible to the owner / sender 
   
 Developing Private Blockchain addresses - ideology  
 --------------------------------------------------  
-> Blockchains are a way storing encrypted data. Current blockchains such as Bitcoins are psudo anonimous for various reasons but a major one is information leakage at transfer, and storage of plain addresses in the blockchain.  
+> Blockchains are a way storing encrypted data. Current blockchains such as Bitcoins are pseudo anonimous for various reasons but a major one is information leakage at transfer, and storage of plain addresses in the blockchain.  
 > The idea of developing PBA is to investigate whether it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.  
 >  
 > The white paper or functional requirement is currently being developed.  
