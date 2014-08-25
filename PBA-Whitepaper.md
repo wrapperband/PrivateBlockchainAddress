@@ -13,14 +13,14 @@ The Dark Blockchain
   
 > The public blockchain is great for organisations that wish to be open and publicly accountable for what they spend, and how they spend it. However, if information is leaked through other channels, particularly when funds / coins are transferred, this reduces the perceived pseudo anonymity of the coins and transactions. It is both more secure and ethical to reduce exposure to exploits that reduced privacy might engender, if that is possible.  
   
-> Encrypted addresses seems a simple solution, however it doesn’t seemed to have been proposed before. It is probable that development of multi signature technology was required to make it feasible. (Ref 1)  
+> Encrypted addresses seems a simple solution, however it doesn’t seemed to have been proposed before. It is probable that development of multi signature technology was required to make PBAs feasible. (Ref 1)  
   
 > Most other methods of data privacy use a similar "envelope" method to pass the transaction, but are not integrated into the normal blockchain like the proposed PBA solution. (See ref 2,5,7,8, Zerocoin, Darkcoin, Anoncoin.)
   
 1.2 What - Additional encryption  
 > It would be advantageous to include the option of sending coins anonymously, users should be able to choose their own level of security.  
   
-> One issue is that there is a chance that regulation will allow Alternate currencies provided they do not have a certain anonymity feature, if that happened Feathercoin could pull the feature.  
+> One issue is that there is a chance that regulation will allow alternate currencies blockchains, provided they do not have a certain anonymity feature, if that happened Feathercoin could pull the feature.  
   
 1.3 How - Development  
 > The proposal is to create a version of Feathercoin coin as a test-bed for implementing private Blockchain addresses. Once tested, and debugged, offer to incorporate the features of the development into Feathercoin as an option.  
