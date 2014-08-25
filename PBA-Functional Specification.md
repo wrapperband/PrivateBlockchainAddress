@@ -5,11 +5,9 @@ Functional Specification
 Key: D.1 = disadvantage 1. A.3 = advantage 3
 
 1.0 How the encrypted address is created
-----------------------------------------
 > When a normal valid address is created in the coin wallet software a second address is created based on the private key and the original address.  
 
 2.0 How the system identifies a valid encrypted address
--------------------------------------------------------
 2.1 Scanning the blockchain  
 > When part of the system , like the wallet needs to identify weither the user owns private blockchain address, it uses the encryption function to produce the encrypted version of the address and searches for those.  
   
@@ -22,7 +20,6 @@ Key: D.1 = disadvantage 1. A.3 = advantage 3
 > It is envisaged there would be a veiwing key, which could be issued, the mining key could act similarly. That is the reuse of system values that are only known to the user or part of the transaction process, to encrypt the system to public view.  
   
 3.0 The encrypted address need to change for each transaction  
--------------------------------------------------------------  
 Investigate possible method of randomising the encrypted address.  
   
 3.1 Use the transaction value, or part of it to create the private address  
