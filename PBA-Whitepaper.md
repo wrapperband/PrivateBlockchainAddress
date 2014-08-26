@@ -87,7 +87,7 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 3.5 Could PBA be implemented on any blockchain?  
 > It would be possible to allow Dark Blockchain addresses as an upgrade to a running blockchain. Coins currently visible, could be sent to an encrypted address, if a user required the extra privacy. Users would be able to choose to send coins to an encrypted Dark Blockchain addresses if they wished, as an option. You would obviously need the correct wallet to view your encrypted addresses and see what is in them.  
   
-3.6 What about makeing a Dark sidechain?  
+3.6 What about developing a dark sidechain?  
 > Side chains are a proposal for Bitcoin 2.0. Side-chains would effectively be new blockchains that are backed by Bitcoins, in much the same way that fiat currencies used to be backed by gold. They could be backed by Feathercoin at that stage of development the Feathercoin client would include side chain facility.
 
 > So, one possibility is that Feathercoin could implement Dark Side Chains, assuming we can fully invent how  the Dark Blockchain / Dark Addresses will work. It would also be possible to also start a separate Dark Blockchain coin. (Ref 4.)
