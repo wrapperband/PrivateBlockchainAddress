@@ -123,38 +123,37 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
   
 > For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.  
   
-  
-References :  
-1.  Feathercoin forum thread  
+References  
+1. Feathercoin forum thread  
 https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
 https://forum.feathercoin.com/index.php?/topic/7523-proposed-anonimity-feature-the-dark-blockchain/  
   
-2.  A Fistful of Bitcoins: Characterizing Payments Among Men with No Names  
-http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf  
+2. A Fistful of Bitcoins: Characterizing Payments Among Men with No Names  
+  http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf  
   
-3.  Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203  
+3. Kristov Atlas, pt1 & 2 : Anonymous Bitcoin, Cryptography and Online Safety - #203  
 https://www.youtube.com/watch?v=-xSMEuhEWGM  
 https://www.youtube.com/watch?v=ym8oDhwhHGg  
   
-4.  tor-us-attack-identity-privacy  
+4. tor-us-attack-identity-privacy  
 http://www.techweekeurope.co.uk/news/tor-us-attack-identity-privacy-150044  
   
-5.  Sidechains  
+5. Sidechains  
 http://techcrunch.com/2014/04/19/bitcoin-2-0-unleash-the-sidechains/  
 http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/  
   
-6.  Stealth Addresses  
+6. Stealth Addresses  
 http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address  
 http://sourceforge.net/p/bitcoin/mailman/message/31813471/  
   
-7.  Regulation  
+7. Regulation  
 http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/  
   
-8.  Cryptonote whitepaper  
+8. Cryptonote whitepaper  
 https://cryptonote.org/whitepaper.pdf  
   
-9.  Monero site  
+9. Monero site  
 http://www.monero.cc/  
   
-10.  Anoncoin site  
+10. Anoncoin site  
 https://anoncoin.net/  
