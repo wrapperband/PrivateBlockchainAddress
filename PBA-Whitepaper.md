@@ -125,7 +125,7 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
   
   
 References:  
-1. Feathercoin thread :
+1. Feathercoin thread :  
 https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
 https://forum.feathercoin.com/index.php?/topic/7523-proposed-anonimity-feature-the-dark-blockchain/  
   
