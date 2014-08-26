@@ -4,9 +4,8 @@ PBA - encrypted blockchain address only visible to the owner / sender and receiv
 
 Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 
-The Dark Blockchain
--------------------
-1.0 Introduction 
+##  The Dark Blockchain
+### 1.0 Introduction 
 ----------------
 1.1 Why propose PBAs - Anonymity Leakage  
 > Bitcoin, Litecoin and Feathercoin, like most coins, have public visible transactions and addresses; i.e. a visible or "Light Blockchain". In the Feathercoin blockchain it is possible to see the transactions for each address and the amount they contain. Pseudo anonymity is maintained because the public viewer does not know who controls the addresses. (Ref 2,4)  
@@ -27,8 +26,7 @@ The Dark Blockchain
   
 > It would be available as a module which can be introduced to other coins networks, or used to create a new coin. The open development is to recognise the level of work and co-operation required, particularly to raise bounties or gain the interest of other coins developers.  
   
-2.0 Encrypting Addresses - how this could work?
------------------------------------------------  
+### 2.0 Encrypting Addresses - how this could work?
 2.1 Who can see the Addresses?  
 > The idea of developing PBA is to investigate whether it is possible to have a "Dark Blockchain" such that only the sender and receiver of coins can see unencrypted details of a transaction.  
   
@@ -60,8 +58,7 @@ The Dark Blockchain
 
 > It would be optimal, as far as software and database changes, that no additional knowledge or key or database field be required. This could be achieved by reusing the private key some other known element from the transaction to randomise the encrypted address. 
 
-3.0 Other related issues
-------------------------
+### 3.0 Other related issues
 3.1 Does this PBA privacy measure engender money laundering?  
 > The coins are just private, there is no money laundering involved.  
   
@@ -106,21 +103,20 @@ The Dark Blockchain
 3.9 Could PBA be implemented without changing the block chain database structure?
 > It may be a requirement not to change the database structure, in which case it would be advantageous that the encrypted address in private address is in the form of valid address. This would mean that private address would be indistinguishable from a public address to an public viewer of the blockchain. 
 
-6.0 Possible further enhancements / issues  
-------------------------------------------  
-6.1 Producing additional public viewing keys  
+### 4.0 Possible further enhancements / issues  
+4.1 Producing additional public viewing keys  
 > A facility to send a "viewing password / address" to another user to prove funds, may be required to make the system production ready.  
   
-6.2 Using PBA to enabling Public Addresses  
+4.2 Using PBA to enabling Public Addresses  
 > A facility to make the private encrypted address be a "Vanity Address" : which would make the address owner fully public.  
   
-6.3 Variable privacy settings  
+4.3 Variable privacy settings  
 > A facility to make only the address encrypted not the coin amount.  
   
-6.4 Using PBA to enable private mining payout options  
+4.4 Using PBA to enable private mining payout options  
 > It would also be possible to have mining payouts to Dark Blockchain addresses, as an option ..  
   
-6.5 Identifiable and non identifiable encrypted addresses   
+4.5 Identifiable and non identifiable encrypted addresses   
 > The encrypted address may need to conform to a standard format so the coin type can still be identified, or not? For instance encrypted addresses could start with an identifier string. Which might be a requirement for reducing the work involved scanning the blockchain for personal address. Even so, it should be possible that wallet will accept either the unencrypted or encrypted address, for speed. It would slow down the system if it had to unencrypted every address, to see if you owned it. 
   
 > Also to consider how or wither the value amount and address are encrypted. Wether other parameters are or could be used as part of the public private key pair, such as the myrtle.
