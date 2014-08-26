@@ -124,8 +124,8 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 > For instance An encrypted address and value might look exactly as an unencrypted one. The value actually being also encrypted to show a different (possibly small) amount.  
   
   
-References:  
-1.  Feathercoin forum thread :  
+References :  
+1.  Feathercoin forum thread  
 https://forum.feathercoin.com/index.php?/topic/7643-dev-private-blockchain-addresses-dark-blockchain/  
 https://forum.feathercoin.com/index.php?/topic/7523-proposed-anonimity-feature-the-dark-blockchain/  
   
