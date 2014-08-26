@@ -5,8 +5,8 @@ Functional Specification
 Key: D.1 = disadvantage 1. A.3 = advantage 3
 
 ### 1.0 How the encrypted address is created
-1.1 What is a PBA?
-An encrypted address is valid public key address that can't send coins but can be used to veiw / send from the address inside the encrypted private blockchain address.  
+1.1 What is a PBA?  
+The PBA is an encrypted address that is a valid public key address that can't send coins but can be used to veiw / extract the real address to send from the address inside the encrypted private blockchain address.  
   
 1.2 How is the PBA created?
 > When a normal valid address is created in the coin wallet software a second address is created based on the private key and the original address. 
