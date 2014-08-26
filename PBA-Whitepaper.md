@@ -146,6 +146,7 @@ http://siliconangle.com/blog/2014/04/21/bitcoin-sidechains/
 6. Stealth Addresses  
 http://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address  
 http://sourceforge.net/p/bitcoin/mailman/message/31813471/  
+https://medium.com/@octskyward/ecdh-in-the-payment-protocol-cb2f81962c1b  
  
 7. Regulation  
 http://www.coindesk.com/australian-bitcoin-industry-unhappy-tax-office-issues-guidelines/  
