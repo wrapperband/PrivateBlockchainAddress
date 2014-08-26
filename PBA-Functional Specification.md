@@ -5,13 +5,19 @@ Functional Specification
 Key: D.1 = disadvantage 1. A.3 = advantage 3
 
 ### 1.0 How the encrypted address is created
-> When a normal valid address is created in the coin wallet software a second address is created based on the private key and the original address.  
+1.1 What is a PBA?
+An encrypted address is valid public key address that can't send coins but can be used to veiw / send from the address inside the encrypted private blockchain address.  
+  
+1.2 How is the PBA created?
+> When a normal valid address is created in the coin wallet software a second address is created based on the private key and the original address. 
 
 ### 2.0 How the system identifies a valid encrypted address  
 2.1 Scanning the blockchain  
 > When part of the system , like the wallet needs to identify weither the user owns private blockchain address, it uses the encryption function to produce the encrypted version of the address and searches for those.  
+
+> The wallet could have extra functionality or a feild to identify weither it is an encrypted address, or create the encrypted key from current blockchain feilds. 
   
-> The decryption uses exactly the same mechanism as is currently done except the process now has 2 stages. For the owner of the address (public) and private key. Firstly uses his address and private key to open the encrypted address.  
+> The decryption uses exactly the same mechanism as is currently done except the process now has 2 stages. For the owner of the address (public) and private key. Firstly uses his "encrypted address" and private key to open the encrypted address.  
   
 2.2 Transaction validation and mining  
 > There is also an extra token to be passed when the transaction is completed by the miner, such that the miner and the receiver are passed, when a transaction occurs and is validated into the blockchain. Again that could be exactly how is done current, except, if it is an encrypted address, it would act accordingly. ie the miner might given reduced no access but can still check the key useing its key.  
