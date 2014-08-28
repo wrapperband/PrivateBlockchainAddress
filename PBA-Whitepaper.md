@@ -58,6 +58,16 @@ Proposed anonymity feature : The Dark Blockchain / Private Blockchain Addresses
 
 > It would be optimal, as far as software and database changes, that no additional knowledge or key or database field be required. This could be achieved by reusing the private key some other known element from the transaction to randomise the encrypted address. 
 
+> Another possibility is to use different parts of the private key, as the randomising factor for each transaction an "real address" uses. That could be a known fixed percentage or the new encrypted address could store a variable percentage of the private key being used as part of its format.  
+
+> Useing part of the key only gives a percentage security, but it could be set of 90% for high and 50% to enable vanity address encryption with the other where.  
+
+> This is not 100 gives an extra level of privacy, it increases the work to hack an address holders finances. Such a system also negate the need to store or send extra keys. When sending the transaction, by knowing the format the mining algoryth might be able to recognise it as an encrypted address and decrypt it enought to send the transaction from the information / keys /tokens it is already being passed.  
+
+> Another related method to enable encrypted transaction addresses, might be to use (say) the last 3 characters of the encrypted address to store the public key of the number of transactions (ie encrypted address) that have been published from that "real address". The wallet or miner software would then be programmed to know the format use the private key, part of the encrypted key to veiw or then transact coins from the real address. That would limit the number of private transactions before the encrypted address would be repeated. Another method would be use one additional encrypted address character to defining the duplication range as 9, would give up to 999999999 transaction per address. It would use up or loose 10 characters of the private address.  
+
+> By useing extra database feilds you could just pass the "real address" and the encrypted address when coins are sent. This would mean private storage or use of key generation methods could vary. This has the advantage that block chain might remain the same and the temporary feilds are discarded when the block is mined to the blockchain.  
+
 ### 3.0 Other related issues
 3.1 Does this PBA privacy measure engender money laundering?  
 > The coins are just private, there is no money laundering involved.  
